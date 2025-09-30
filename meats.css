@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Berkshire+Swash&family=Boldonse&family=Caprasimo&family=Kavoon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/28/13/49/ostrich-5445127_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.meat{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.meats h1{
+    font-family: Poppins;
+    color: gold;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.searchbox{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.searchbox input{
+    padding: 10px;
+    width: 30vw;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.699);
+    border: none;
+    font-family: Poppins;
+    font-size: 1.2rem;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box6 img,.box7 img,.box8 img{
+    width: 225px;
+    height:225px;
+    border-radius: 20px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    border: solid 3px;
+    border-color: white;
+    font-family: Poppins;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.box1 h2,.box2 h2,.box3 h2,.box4 h2,.box5 h2,.box6 h2,.box7 h2,.box8 h2{
+    color: gold;
+    font-size: 2rem;
+}
+.box1 p,.box2 p,.box3 p,.box4 p,.box5 p,.box6 p,.box7 p,.box8 p{
+    color:white;
+}
+.box1 button,.box2 button,.box3 button,.box4 button,.box5 button,.box6 button,.box7 button,.box8 button{
+    background-color: tomato;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+button a{
+    all: unset;
+}
+
+
+@media screen and (max-width:725px){
+    body{
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/28/13/49/ostrich-5445127_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.searchbox input{
+    padding: 7px;
+    width: 60vw;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.266);
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 1rem;
+
+}
+.searchbox input::placeholder{
+    color: rgba(255, 255, 255, 0.407);
+}
+
+    .box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box6 img,.box7 img,.box8 img{
+    width: 125px;
+    height:125px;
+    border-radius: 20px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    border: solid 3px;
+    border-color: white;
+    font-family: Poppins;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.box1 h2,.box2 h2,.box3 h2,.box4 h2,.box5 h2,.box6 h2,.box7 h2,.box8 h2{
+    color: gold;
+    font-size: 1rem;
+}
+.box1 p,.box2 p,.box3 p,.box4 p,.box5 p,.box6 p,.box7 p,.box8 p{
+    color:white;
+    font-size: 0.7rem;
+}
+}
